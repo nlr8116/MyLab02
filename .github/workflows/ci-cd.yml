@@ -33,7 +33,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: webpage
-          path: non-existent-file.html  # Your broken file path
-          if-no-files-found: error      # 👈 This forces the workflow to fail!
+          path: index.html  
+          if-no-files-found: error      #  forces the workflow to fail if error!
 
 
